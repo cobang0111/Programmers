@@ -47,3 +47,4 @@ def solution(today, terms, privacies):
             answer.append(i+1)
             
     return answer
+
