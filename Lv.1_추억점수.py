@@ -10,3 +10,4 @@ def solution(name, yearning, photo):
                 total += yearning[name.index(j)]
         answer.append(total)
     return answer
+
