@@ -7,7 +7,7 @@ def quick_sort(start, end, arr):
     pivot = start
     a = pivot + 1
     b = end
-    # Sorting by DESC of 1st digit 
+    # Sorting by DESC of 1st digit
     while a <= b:
         first_digit_a = int(str(arr[a])[0])
         first_digit_b = int(str(arr[b])[0])
