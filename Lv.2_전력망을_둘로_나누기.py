@@ -1,5 +1,4 @@
 def solution(n, wires):
-    
     #Initial Setting
     min_diff = n
     
