@@ -15,5 +15,4 @@ def solution(skill, skill_trees):
         # Case : Some of skill including given skill set and sequential 
         elif len(skill) != len(string) and skill[:len(string)] == string:
             answer += 1
-
     return answer
