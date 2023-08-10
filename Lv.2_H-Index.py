@@ -1,6 +1,4 @@
 def solution(citations):
-    answer = 0
-    
     citations.sort(reverse = True)
     max_h = citations[0]
     
