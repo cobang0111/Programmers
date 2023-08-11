@@ -1,5 +1,4 @@
 def solution(operations):
-    
     queue = []
     
     for string in operations:
