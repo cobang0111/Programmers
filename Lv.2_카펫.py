@@ -15,7 +15,6 @@ def solution(brown, yellow):
             else:
                 a = i + 2
                 b = i // yellow + 2
-            
             # Case : a and b satisfy system of equations
             if (a-2) * (b-2) == yellow and 2*(a + b) - 4 == brown:
                 answer_w = a
