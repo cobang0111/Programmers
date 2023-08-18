@@ -1,6 +1,5 @@
 def solution(N, number):
     answer = 0
-    
     cycle = 1 #Variable for number of N
     # Initial list
     number_list = [N]
