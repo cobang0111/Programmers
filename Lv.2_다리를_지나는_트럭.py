@@ -14,11 +14,9 @@ def solution(bridge_length, weight, truck_weights):
             cur = truck_weights.pop(0)
             on_bridge.append([cur,0])
             on_bridge_w += cur
-        
         # Truck location count
         for i in range(len(on_bridge)):
             on_bridge[i][1] += 1
-        
         # Case : First truck get out from bridge
         if on_bridge[0][1] >= bridge_length:
             on_bridge_w -= on_bridge[0][0]
