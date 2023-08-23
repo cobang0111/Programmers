@@ -1,6 +1,4 @@
 def solution(n):
-    answer = 0
-    
     # count 1 in n
     target = 0
     for i in str(bin(n))[2:]:
